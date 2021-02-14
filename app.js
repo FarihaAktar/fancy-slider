@@ -38,7 +38,6 @@ const showImages = (images) => {
   })
 
 }
-
 let slideIndex = 0;
 const selectItem = (event, img) => {
   let element = event.target;
@@ -169,7 +168,6 @@ const addedComment = (id) =>{
   const anotherDiv = document.getElementById("another-div");
   comment.addEventListener("keypress", function (event) {
     if (event.key == 'Enter'){
-      // console.log(comment.value)
       anotherDiv.innerHTML ='';
       let newDiv = document.createElement('div');
       newDiv.innerHTML = `
