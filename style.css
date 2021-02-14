@@ -64,6 +64,15 @@ img {
     width: 90%;
   }
 }
+.comment-text{
+  border:1px ridge green;
+  padding:10px;
+  margin-bottom:20px;
+  margin-left:5px;
+  padding-left: 25px;
+  color: rgb(9, 46, 8);
+  background-color: rgb(205, 233, 206);
+}
 
 #loading-spinner{
   margin-top: 150px;

@@ -172,7 +172,7 @@ const addedComment = (id) =>{
       let newDiv = document.createElement('div');
       newDiv.innerHTML = `
       <p style="color:green"; font-weight:bold>Your Comment</p>
-      <h5 style="border:1px ridge green; padding:10px; margin-bottom:20px">${comment.value}</h5>`
+      <h5 class="comment-text" >${comment.value}</h5>`
       anotherDiv.appendChild(newDiv);
     }
       
